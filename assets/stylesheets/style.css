@@ -10,16 +10,26 @@ html, body {
 
 h1 {
   font-size:  2.9em;
-  padding:    35px 0;
+  padding:    35px 0 25px 0;
 }
 
 h3 {
   font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+#mobile {
+  display: none;
 }
 
 @media screen and (max-width: 1100px){
-  h1 { font-size: 2.5em; padding: 35px 0; }
+  h1 { font-size: 2.5em; padding: 35px 0 25px 0 }
   h3 { font-size: 1em; }
+}
+
+@media screen and (max-width: 500px){
+  #desktop  { display: none; }
+  #mobile   { display: block; font-size: 1.1em; }
 }
 
 #info {
@@ -101,25 +111,25 @@ h3 {
 }
 
 @media screen and (max-width: 428px){
-  #user_input { width: 90% ;}
-  #email { width: 80%; }
-  #submit {width: 20%; }
+  #user_input   { width: 90%; }
+  #email        { width: 80%; }
+  #submit       { width: 20%; }
 }
 
 ::-webkit-input-placeholder {
-  color:      rgb(136, 136, 136);
+  color: rgb(136, 136, 136);
 }
 
 :-moz-placeholder { /* Firefox 18- */
-  color:      rgb(136, 136, 136);
+  color: rgb(136, 136, 136);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  color:      rgb(136, 136, 136);
+  color: rgb(136, 136, 136);
 }
 
 :-ms-input-placeholder {  
-  color:      rgb(136, 136, 136);  
+  color: rgb(136, 136, 136);  
 }
 
 /*LAPTOP GRAPHIC*/
