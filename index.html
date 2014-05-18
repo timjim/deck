@@ -4,6 +4,7 @@
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
   <script type="text/javascript" src="assets/javascript/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/jquery.cycle.lite.js"></script>
   <script type="text/javascript" src="assets/javascript/application.js"></script>
   <!-- TypeKit JS -->
   <script type="text/javascript" src="http://use.typekit.net/qss2ekj.js"></script>
@@ -29,9 +30,11 @@
     <!-- Laptop -->
     <div id="image_container">
       <img id="laptop" src="public/laptop.png">
-      <img class="screenshot" src="public/one.jpg">
-      <img class="screenshot" src="public/two.jpg">
-      <img class="screenshot" src="public/three.jpg">
+      <div id="screenshots">
+        <img src="public/one.jpg">
+        <img src="public/two.jpg">
+        <img src="public/three.jpg">
+      </div>
     </div>
 
     <!-- Campaign Monitor HTML -->
@@ -39,6 +42,9 @@
   </div>
 
   <div id="lightbox" class="hidden">
+    <div id="video_container">
+      <iframe src="http://player.vimeo.com/video/95384593" width="853" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
   </div>
 </body>
 </html>

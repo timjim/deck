@@ -1,7 +1,6 @@
 html, body {
-  background-color: white;
-  width:            100%;
-  font-family:      "proxima-nova", helvetica, sans-serif;
+  width:        100%;
+  font-family:  "proxima-nova", helvetica, sans-serif;
 }
 
 #content {
@@ -68,11 +67,17 @@ h3 {
   z-index:  0;
 }
 
-.screenshot {
+#screenshots {
   z-index:  1;
   position: absolute;
   top:      8.4%;
-  right:    0%;
+  right:    1px;
+  width:    463px;
+}
+
+#screenshots img {
+  top: 0;
+  left: 0;
 }
 
 /*CAMPAIGN MONITOR*/
@@ -85,11 +90,25 @@ h3 {
 #lightbox {
   height:           100%;
   width:            100%;
-  background-color: rgba(0,0,0,0.75);
+  
+  /*Radial gradient*/
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0.8) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.9)), color-stop(40%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0.8)));
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.8) 100%);
+  background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.8) 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.8) 100%);
+  background: radial-gradient(ellipse at center,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 40%,rgba(0,0,0,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#cc000000',GradientType=1 );
+
   position:         fixed;
   top:              0;
   left:             0;
   z-index:          3;
+}
+
+#video_container {
+  margin: 8.5% auto;
+  width: 853px;
 }
 
 .hidden {

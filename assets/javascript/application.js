@@ -7,4 +7,8 @@ $(function() {
     $(this).fadeOut();
   });
 
+  $('#screenshots').cycle({ 
+    fx:    'fade', 
+    timeout:  3000 
+  });
 });
