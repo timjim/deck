@@ -30,6 +30,7 @@ h3 {
 @media screen and (max-width: 500px){
   #desktop  { display: none; }
   #mobile   { display: block; font-size: 1.1em; }
+  h1        { font-size: 2.1em; padding: 35px 0 25px 0 }
 }
 
 #info {
