@@ -6,6 +6,6 @@ function campaignMonitor () {
   e.className = 'createsend-script';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(e, s);
-})
+};
 
 campaignMonitor();

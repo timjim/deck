@@ -1,6 +1,11 @@
 html, body {
   background-color: white;
   width: 100%;
+  font-family: "proxima-nova", helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 /*Campaign Monitor*/
