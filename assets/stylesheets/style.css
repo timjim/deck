@@ -4,6 +4,10 @@ html, body {
   font-family: "proxima-nova", helvetica, sans-serif;
 }
 
+#content {
+  margin: 10%;
+}
+
 h1 {
   font-size: 48px;
 }
@@ -11,6 +15,28 @@ h1 {
 h3 {
   font-size: 18px;
 }
+
+/*Laptop*/
+
+#image_container {
+  position: absolute;
+  right:    0%;
+  top:      10%;
+  width:    587px;
+}
+
+#laptop {
+  z-index:  0;
+}
+
+.screenshot {
+  z-index:  1;
+  position: absolute;
+  top:      8%;
+  right:    0%;
+}
+
+
 
 /*Campaign Monitor*/
 .createsend-button {
