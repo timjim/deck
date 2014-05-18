@@ -70,7 +70,6 @@ h3 {
 #user_input input {
   height:           100%;
   border:           0;
-  line-height:      70px;
   highlight:        none;
 }
 
@@ -93,6 +92,7 @@ h3 {
   border-top-right-radius:    3px;
   border-bottom-right-radius: 3px;
   font-size:                  1.2em;
+  cursor:                     pointer;
 }
 
 ::-webkit-input-placeholder {
