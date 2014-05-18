@@ -41,14 +41,14 @@ h3 {
 }
 
 #play {
-  position: absolute;
-  border: 2px solid white;
-  text-align: center;
-  border-radius: 2px;
-  height: 25px;
-  width: 25px;
-  top: 19px;
-  right: 35px;
+  position:       absolute;
+  border:         2px solid white;
+  text-align:     center;
+  border-radius:  2px;
+  height:         25px;
+  width:          25px;
+  top:            19px;
+  right:          35px;
 }
 
 #play p {
@@ -79,4 +79,19 @@ h3 {
 .createsend-button {
   height:   27px;
   display:  inline-block;
+}
+
+/*LIGHTBOX*/
+#lightbox {
+  height:           100%;
+  width:            100%;
+  background-color: rgba(0,0,0,0.75);
+  position:         fixed;
+  top:              0;
+  left:             0;
+  z-index:          3;
+}
+
+.hidden {
+  display: none;
 }
