@@ -5,23 +5,41 @@ html, body {
 }
 
 #content {
-  margin: 10%;
+  margin: 10% 0 10% 10%;
+  position: relative;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3.1em;
+  padding: 40px 0;
 }
 
 h3 {
   font-size: 18px;
 }
 
+.color_2  {
+  color: rgb(136,136,136);
+}
+
+/*How it works button*/
+
+#how_it_works {
+  width:            230px;
+  height:           66px;
+  margin:           40px 0 20px 0;
+  border-radius:    3px;
+  text-align:       center;
+  background-color: rgb(32, 184, 244);
+  color:            white;
+}
+
 /*Laptop*/
 
 #image_container {
   position: absolute;
-  right:    0%;
-  top:      10%;
+  right:    0;
+  top:      -12%;
   width:    587px;
 }
 
@@ -32,11 +50,9 @@ h3 {
 .screenshot {
   z-index:  1;
   position: absolute;
-  top:      8%;
+  top:      8.4%;
   right:    0%;
 }
-
-
 
 /*Campaign Monitor*/
 .createsend-button {
