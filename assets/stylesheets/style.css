@@ -17,6 +17,11 @@ h3 {
   font-size: 1.1em;
 }
 
+@media screen and (max-width: 1100px){
+  h1 { font-size: 2.5em; padding: 35px 0; }
+  h3 { font-size: 0.9em; }
+}
+
 #info {
   font-size: 0.75em;
 }
@@ -121,6 +126,7 @@ h3 {
 
 #laptop {
   z-index:  0;
+  width: 100%;
 }
 
 #screenshots {
@@ -134,6 +140,16 @@ h3 {
 #screenshots img {
   top:  0;
   left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+  #image_container { width: 500px; top: 0;}
+  #screenshots { width: 394px; }
+}
+
+@media screen and (max-width: 960px){
+  #image_container { display: none };
 }
 
 /*LIGHTBOX*/
