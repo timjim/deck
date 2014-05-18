@@ -14,8 +14,8 @@ h1 {
 }
 
 h3 {
-  font-size: 1.1em;
-  line-height: 1.6em;
+  font-size:    1.1em;
+  line-height:  1.6em;
 }
 
 #mobile {
@@ -154,18 +154,18 @@ h3 {
 }
 
 #screenshots img {
-  top:  0;
-  left: 0;
-  width: 100%;
+  top:    0;
+  left:   0;
+  width:  100%;
 }
 
 @media screen and (max-width: 1027px){
-  #image_container { width: 500px; top: 0; }
-  #screenshots { width: 394px; }
+  #image_container  { width: 500px; top: 0; }
+  #screenshots      { width: 394px; }
 }
 
 @media screen and (max-width: 960px){
-  #image_container { display: none; }
+  #image_container  { display: none; }
 }
 
 /*LIGHTBOX*/
@@ -198,7 +198,7 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 .hidden {

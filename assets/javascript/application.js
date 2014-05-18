@@ -8,7 +8,11 @@ $(function() {
   });
 
   $('#screenshots').cycle({ 
-    fx:    'fade', 
+    fx: 'fade', 
     timeout:  3000 
+  });
+
+  $('#inputForm').submit(function () {
+    return false;
   });
 });
