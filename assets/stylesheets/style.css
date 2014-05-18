@@ -1,41 +1,62 @@
 html, body {
   background-color: white;
-  width: 100%;
-  font-family: "proxima-nova", helvetica, sans-serif;
+  width:            100%;
+  font-family:      "proxima-nova", helvetica, sans-serif;
 }
 
 #content {
-  margin: 10% 0 10% 10%;
+  margin:   10% 0 10% 10%;
   position: relative;
 }
 
 h1 {
-  font-size: 3.1em;
-  padding: 40px 0;
+  font-size:  3.1em;
+  padding:    40px 0;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1.1em;
+}
+
+#info {
+  font-size: 0.8em;
 }
 
 .color_2  {
   color: rgb(136,136,136);
 }
 
-/*How it works button*/
-
+/*HOW IT WORKS BUTTON*/
 #how_it_works {
-  width:            230px;
+  position:         relative;
+  width:            185px;
   height:           66px;
+  line-height:      66px;
   margin:           40px 0 20px 0;
   border-radius:    3px;
-  text-align:       center;
+  padding-left:     45px;
   background-color: rgb(32, 184, 244);
   color:            white;
+  cursor:           pointer;
 }
 
-/*Laptop*/
+#play {
+  position: absolute;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 2px;
+  height: 25px;
+  width: 25px;
+  top: 19px;
+  right: 35px;
+}
 
+#play p {
+  font-size: 0.6em;
+  line-height: 25px;
+}
+
+/*LAPTOP GRAPHIC*/
 #image_container {
   position: absolute;
   right:    0;
@@ -54,7 +75,7 @@ h3 {
   right:    0%;
 }
 
-/*Campaign Monitor*/
+/*CAMPAIGN MONITOR*/
 .createsend-button {
   height:   27px;
   display:  inline-block;
