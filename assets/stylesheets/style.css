@@ -113,7 +113,7 @@ h3 {
 
 @media screen and (max-width: 428px){
   #user_input   { width: 90%; }
-  #email        { width: 80%; }
+  #email        { width: 80%; font-size: 1em; }
   #submit       { width: 20%; }
 }
 
