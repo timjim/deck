@@ -19,7 +19,7 @@ h3 {
 
 @media screen and (max-width: 1100px){
   h1 { font-size: 2.5em; padding: 35px 0; }
-  h3 { font-size: 0.9em; }
+  h3 { font-size: 1em; }
 }
 
 #info {
@@ -100,6 +100,12 @@ h3 {
   cursor:                     pointer;
 }
 
+@media screen and (max-width: 428px){
+  #user_input { width: 90% ;}
+  #email { width: 80%; }
+  #submit {width: 20%; }
+}
+
 ::-webkit-input-placeholder {
   color:      rgb(136, 136, 136);
 }
@@ -143,13 +149,13 @@ h3 {
   width: 100%;
 }
 
-@media screen and (max-width: 1000px){
-  #image_container { width: 500px; top: 0;}
+@media screen and (max-width: 1027px){
+  #image_container { width: 500px; top: 0; }
   #screenshots { width: 394px; }
 }
 
 @media screen and (max-width: 960px){
-  #image_container { display: none };
+  #image_container { display: none; }
 }
 
 /*LIGHTBOX*/
