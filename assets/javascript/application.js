@@ -1,4 +1,5 @@
 $(function() {
+  // Lightbox fadeIn, fadeOut
   $('#how_it_works').click(function() {
     $('#lightbox').fadeIn();
   });
@@ -7,12 +8,12 @@ $(function() {
     $(this).fadeOut();
   });
 
+  // Laptop screenshot cycle
   $('#screenshots').cycle({ 
     fx: 'fade', 
     timeout:  3000 
   });
 
-  $('#inputForm').submit(function () {
-    return false;
-  });
+  // Responsive iFrame
+  $('#video_container').fitVids();
 });
