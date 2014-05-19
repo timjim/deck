@@ -181,7 +181,7 @@ h3 {
   #image_container  { left: 393px; right: auto;}
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 520px){
   #image_container  { display: none;}
 }
 
