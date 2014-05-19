@@ -172,7 +172,7 @@ h3 {
   width:  100%;
 }
 
-@media screen and (max-width: 1027px){
+@media screen and (max-width: 1068px){
   #image_container  { width: 500px; top: 0; }
   #screenshots      { width: 394px; }
 }
