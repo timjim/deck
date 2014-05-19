@@ -111,6 +111,8 @@ h3 {
   border-bottom-right-radius: 3px;
   font-size:                  1.2em;
   cursor:                     pointer;
+  -webkit-appearance:         none;
+  -moz-appearance:            none;
 }
 
 @media screen and (max-width: 428px){
