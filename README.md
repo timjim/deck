@@ -1,7 +1,5 @@
 # Deck
 
-- - -
-
 Designed by Deck founder [Joe Furr](http://www.whatthefurr.com/), this static landing page is [currently live](http://usedeck.com).
 
 CSS media queries were used to ensure that the design is responsive across devices.
